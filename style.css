@@ -1,0 +1,65 @@
+@import url('https://fonts.cdnfonts.com/css/valorant');
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+p.desc{
+    max-width: 70%;
+    color:aliceblue;
+    background-color: rgba(80, 41, 41, 0.6);
+    margin: 0 auto;
+    margin-bottom: 2%;
+    font-family: 'Poppins';
+}
+
+
+nav.navbar {
+    background-color: #363636;
+    border-radius: 14px;
+    margin: 12px;
+}
+
+div.carousel {
+    width: 60%;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    margin-bottom: 2%;
+}
+
+div h5 {
+    font-family: "valorant";
+    
+}
+div p{
+    max-width: 70%;
+    margin: 0 auto;    
+    
+}
+.carousel img {
+    border-radius: 12px;
+}
+
+
+
+.carousel-item img {
+    width: 100%; 
+    max-height: 600px; 
+    object-fit: cover; 
+}
+
+
+img.logo{
+    margin: 3px;
+}
+   
+.card{
+       margin: 0 auto;
+       margin-bottom: 2%;
+    }
